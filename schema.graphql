@@ -1,0 +1,7 @@
+type Query {
+	products: String
+}
+
+type Mutation {
+	product(id: String!): String!
+}

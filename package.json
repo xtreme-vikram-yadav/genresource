@@ -1,0 +1,25 @@
+{
+  "name": "genresource",
+  "version": "0.0.1",
+  "description": "Auto create CRUD resource endpoints",
+  "main": "server.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/xtreme-vikram-yadav/gencrud"
+  },
+  "author": "Vikram Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "express-jwt": "^8.4.1",
+    "graphql": "^16.8.1",
+    "knex": "^3.1.0"
+  }
+}
